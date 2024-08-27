@@ -1,0 +1,6 @@
+@IPL_CodeMarathon_HostAddress = http://localhost:5223
+
+GET {{IPL_CodeMarathon_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

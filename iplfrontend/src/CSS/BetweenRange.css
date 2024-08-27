@@ -1,0 +1,91 @@
+/* Container styles */
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow for more depth */
+    background-color: #222; /* Dark background */
+    color: #f5f5f5; /* Light text color */
+}
+
+/* Input field styles */
+input {
+    margin: 10px 0;
+    padding: 12px; /* Slightly increased padding */
+    border: 1px solid #555; /* Darker border */
+    border-radius: 4px;
+    width: calc(50% - 24px); /* Adjusted width for more balance */
+    background-color: #333; /* Dark background */
+    color: #f5f5f5; /* Light text color */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5); /* Inner shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+button {
+    padding: 12px 24px; /* Increased padding for a larger button */
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition and subtle scale on click */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:active {
+    transform: scale(0.98); /* Slightly shrink button on click */
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #333; /* Dark background */
+    color: #f5f5f5; /* Light text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+}
+
+.table th, .table td {
+    padding: 12px; /* Increased padding */
+    border: 1px solid #555; /* Darker border */
+    text-align: left;
+}
+
+.table th {
+    background-color: #444; /* Darker background for header */
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #444; /* Dark background for even rows */
+}
+
+.table tr:nth-child(odd) {
+    background-color: #333; /* Slightly darker background for odd rows */
+}
+
+/* Loading and error messages */
+p.loading {
+    color: #17a2b8; 
+    font-size: 20px;
+    text-align: center; /* Center-align text */
+}
+
+p.error {
+    color: #dc3545; 
+    font-size: 20px;
+    text-align: center; /* Center-align text */
+}

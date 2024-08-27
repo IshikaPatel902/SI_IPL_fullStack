@@ -1,0 +1,67 @@
+/* Container styles */
+div {
+    margin: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merged borders */
+    margin-top: 20px;
+    background-color: #222; /* Dark table background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+}
+
+/* Table header styles */
+thead {
+    background-color: #333; /* Darker header background */
+}
+
+th, td {
+    border: 1px solid #444; /* Darker border color */
+    padding: 10px; /* Slightly increased padding for better spacing */
+    text-align: center;
+    color: #f5f5f5; /* Light text color for both th and td */
+}
+
+/* Table header specific styles */
+th {
+    background-color: #007bff; /* Blue background for header */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase for a bold look */
+}
+
+/* Table row styles */
+tbody tr:nth-child(even) {
+    background-color: #333; /* Dark background for even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #222; /* Slightly darker background for odd rows */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 18px;
+    text-align: center;
+    color: #f5f5f5; /* Light text color */
+}
+
+/* Loading message styles */
+p.loading {
+    color: #17a2b8; /* Contrasting blue color for loading message */
+    font-size: 20px;
+}
+
+/* Error message styles */
+p.error {
+    color: #dc3545; /* Red color for error message */
+    font-size: 20px;
+}
+
+/* Hover effects for table rows */
+tbody tr:hover {
+    background-color: #444; /* Slightly lighter background on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IPL_CodeMarathon.props" />
+</Project>
